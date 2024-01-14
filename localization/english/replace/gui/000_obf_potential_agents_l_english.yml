@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_spanish:
 #added by obfusCK:Start
 POTENTIAL_AGENT_SUCCESS_OB:"[SelectLocalization(LessThanOrEqualTo_int32( CharacterListItem.GetInt( 'success' ), '(int32)15'),'POTENTIAL_AGENT_SUCCESS_VERY_LOW','')][SelectLocalization(And(LessThanOrEqualTo_int32( CharacterListItem.GetInt( 'success' ), '(int32)33'),GreaterThanOrEqualTo_int32( CharacterListItem.GetInt( 'success' ), '(int32)16')),'POTENTIAL_AGENT_SUCCESS_LOW','')][SelectLocalization(And(LessThanOrEqualTo_int32( CharacterListItem.GetInt( 'success' ), '(int32)67'),GreaterThanOrEqualTo_int32( CharacterListItem.GetInt( 'success' ), '(int32)34')),'POTENTIAL_AGENT_SUCCESS_AVERAGE','')][SelectLocalization(And(LessThanOrEqualTo_int32( CharacterListItem.GetInt( 'success' ), '(int32)84'),GreaterThanOrEqualTo_int32( CharacterListItem.GetInt( 'success' ), '(int32)68')),'POTENTIAL_AGENT_SUCCESS_HIGH','')][SelectLocalization(GreaterThanOrEqualTo_int32( CharacterListItem.GetInt( 'success' ), '(int32)85'),'POTENTIAL_AGENT_SUCCESS_VERY_HIGH','')]"
 

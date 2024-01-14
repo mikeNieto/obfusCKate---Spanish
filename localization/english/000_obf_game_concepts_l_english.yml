@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_spanish:
 
 game_concept_reflect_their_opinion: "#e Reflect Their Opinion#!"
 game_concept_reflect_their_opinion_desc: "The expression of [over_12_years_old|E] characters portraits on main view will reflect their opinion on the player.\nSince face expressions on small portraits in lists would be difficult to check, those portraits will have the glow match their opinion about the player (Useful if you disable opinions and enable expressions)\n\nIf the option for face expressions to be based on opinion AND personality is enabled, characters with very low honorable personalities (Treacheous, Blackguard) will have always the same expression, regardless of their opinion of the player so the player can't "read them". Their small portrait will not change but you can enable the option for glow on portraits to match character opinions.\n\n\n#X Note: Although most do, there are very few graphics that don't have a certain expression animation available, defaulting to an idle expression#!"

@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_spanish:
 #added by obfusCKate: Start 
 OBF_opinion_of_you:0 "[target.GetShortUINameNoTooltip] opinion of you: $VALUE|=+0$"
 OBF_your_prestige_below_zero:0 "Your [prestige|E] is very low: $VALUE|=+0$"

@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_spanish:
  
  action_has_any_display_cb_on_label:2 "@war_icon! You can declare War on [recipient.GetPrimaryTitle.Custom('GetTierIcon')][recipient.GetUINameNoTooltip]"
  action_has_any_display_cb_on_combined_label:1 "[recipient.GetPrimaryTitle.Custom('GetTierIcon')] [recipient.GetUINameNoTooltip]"

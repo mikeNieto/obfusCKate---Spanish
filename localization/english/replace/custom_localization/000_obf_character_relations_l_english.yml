@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_spanish:
 #changed by obfusCKate: Start
  OPINION_REASON_SELF:0 "Opinion of self"
  OPINION_REASON:0 "$MODIFIER$: [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"

@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_spanish:
 #added by obfusCKate: Start
 got_to_know_each_other:0 "You become better acquainted with [target.GetShortUIName]"
 new_acquaintance:0 "New Acquaintance: [target.GetShortUIName]"

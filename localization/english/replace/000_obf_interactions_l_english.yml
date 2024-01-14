@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_spanish:
 #changed by obfusCKate: Start 
  HOSTAGE_RELATIVE_MILITARY_POWER_REASON: "Relative Military Strength: #weak ([actor.GetPrimaryTitle.GetNameNoTier] vs. [recipient.GetPrimaryTitle.GetNameNoTier])#!"
  HOSTAGE_ALLY_MILITARY_POWER_REASON: "[allies|E] Military Strength: #weak ([actor.GetPrimaryTitle.GetNameNoTier] vs. [recipient.GetPrimaryTitle.GetNameNoTier])#!"

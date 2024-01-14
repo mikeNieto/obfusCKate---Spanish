@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_spanish:
 #added by obfusCKate: Start
 acquaintance.1001.t: "A New Acquaintance: [target.GetShortUIName]"
 acquaintance.1001.desc: "Through your frantic exchange of correspondence with [target.GetShortUIName] in your attempts to sway [target.GetHerHim], you have gotten to know [target.GetHerHim] better."
