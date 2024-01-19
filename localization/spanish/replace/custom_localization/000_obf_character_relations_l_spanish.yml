@@ -1,6 +1,6 @@
 ﻿l_spanish:
 #changed by obfusCKate: Start
- OPINION_REASON_SELF:0 "Opinion of self"
+ OPINION_REASON_SELF:0 "Opinión sobre uno mismo"
  OPINION_REASON:0 "$MODIFIER$: [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
  OPINION_REASON_EXTRA_REASON:0 "$MODIFIER$  [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')] #weak ($EXTRA_REASON$)#!"
  OPINION_REASON_CHANGING:0 "$MODIFIER$  [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')] $CHANGE$"
@@ -13,5 +13,5 @@
  #changed by obfusCKate: End
  
 value_of_modifier:"$VALUE|0$"
-positive_modifier:"#weak (#I positive effect#!)#!"
-negative_modifier:"#weak (#X negative effect#!)#!"
+positive_modifier:"#weak (#I efecto positivo#!)#!"
+negative_modifier:"#weak (#X efecto negativo#!)#!"
