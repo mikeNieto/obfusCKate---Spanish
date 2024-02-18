@@ -1,7 +1,7 @@
 ﻿l_spanish:
 #changed by obfusCKate: Start 
- HOSTAGE_RELATIVE_MILITARY_POWER_REASON: "Relative Military Strength: #weak ([actor.GetPrimaryTitle.GetNameNoTier] vs. [recipient.GetPrimaryTitle.GetNameNoTier])#!"
- HOSTAGE_ALLY_MILITARY_POWER_REASON: "[allies|E] Military Strength: #weak ([actor.GetPrimaryTitle.GetNameNoTier] vs. [recipient.GetPrimaryTitle.GetNameNoTier])#!"
+ HOSTAGE_RELATIVE_MILITARY_POWER_REASON: "Fuerza Militar Relativa: #weak ([actor.GetPrimaryTitle.GetNameNoTier] vs. [recipient.GetPrimaryTitle.GetNameNoTier])#!"
+HOSTAGE_ALLY_MILITARY_POWER_REASON: "Fuerza Militar de los [allies|E]: #weak ([actor.GetPrimaryTitle.GetNameNoTier] vs. [recipient.GetPrimaryTitle.GetNameNoTier])#!"
 #changed by obfusCKate: End 
 #added by obfusCKate: Start
 
@@ -11,84 +11,84 @@ ANSWER_CHANCE_TO_PROPOSAL: "[SelectLocalization(LessThanOrEqualTo_int32( Charact
 INTERACTION_SCHEME_WINDOW_SECRECY: "[SelectLocalization(LessThanOrEqualTo_int32( InteractionSchemeInfo.GetSecrecy, '(int32)12'),'INTERACTION_SCHEME_DISCOVERY_RISK_VERY_HIGH','')][SelectLocalization(And(LessThanOrEqualTo_int32( InteractionSchemeInfo.GetSecrecy, '(int32)33'),GreaterThanOrEqualTo_int32( InteractionSchemeInfo.GetSecrecy, '(int32)13')),'INTERACTION_SCHEME_DISCOVERY_RISK_HIGH','')][SelectLocalization(And(LessThanOrEqualTo_int32( InteractionSchemeInfo.GetSecrecy, '(int32)67'),GreaterThanOrEqualTo_int32( InteractionSchemeInfo.GetSecrecy, '(int32)34')),'INTERACTION_SCHEME_DISCOVERY_RISK_MODERATE','')][SelectLocalization(And(LessThanOrEqualTo_int32( InteractionSchemeInfo.GetSecrecy, '(int32)84'),GreaterThanOrEqualTo_int32( InteractionSchemeInfo.GetSecrecy, '(int32)68')),'INTERACTION_SCHEME_DISCOVERY_RISK_LOW','')][SelectLocalization(GreaterThanOrEqualTo_int32( InteractionSchemeInfo.GetSecrecy, '(int32)85'),'INTERACTION_SCHEME_DISCOVERY_RISK_VERY_LOW','')]"
 
 
-INTERACTION_SCHEME_SUCCESS_VERY_UNLIKELY:0 "#N Very Unlikely #!"
-INTERACTION_SCHEME_SUCCESS_UNLIKELY:0 "#N Unlikely #!"
-INTERACTION_SCHEME_SUCCESS_MAYBE:0 "#high Maybe #!"
-INTERACTION_SCHEME_SUCCESS_LIKELY:0 "#P Likely #!"
-INTERACTION_SCHEME_SUCCESS_VERY_LIKELY:0 "#P Very Likely #!"
+INTERACTION_SCHEME_SUCCESS_VERY_UNLIKELY:0 "#N Muy Improbable #!"
+INTERACTION_SCHEME_SUCCESS_UNLIKELY:0 "#N Improbable #!"
+INTERACTION_SCHEME_SUCCESS_MAYBE:0 "#high Tal vez #!"
+INTERACTION_SCHEME_SUCCESS_LIKELY:0 "#P Probable #!"
+INTERACTION_SCHEME_SUCCESS_VERY_LIKELY:0 "#P Muy Probable #!"
 
-INTERACTION_SCHEME_DISCOVERY_RISK_VERY_HIGH:0 "@warning_icon! #N Very High #!"
-INTERACTION_SCHEME_DISCOVERY_RISK_HIGH:0 "@warning_icon! #N High#!"
-INTERACTION_SCHEME_DISCOVERY_RISK_MODERATE:0 "#high Moderate#!"
-INTERACTION_SCHEME_DISCOVERY_RISK_LOW:0 "#P Low#!"
-INTERACTION_SCHEME_DISCOVERY_RISK_VERY_LOW:0 "#P Very Low#!"
+INTERACTION_SCHEME_DISCOVERY_RISK_VERY_HIGH:0 "@warning_icon! #N Muy Alto #!"
+INTERACTION_SCHEME_DISCOVERY_RISK_HIGH:0 "@warning_icon! #N Alto#!"
+INTERACTION_SCHEME_DISCOVERY_RISK_MODERATE:0 "#high Moderado#!"
+INTERACTION_SCHEME_DISCOVERY_RISK_LOW:0 "#P Bajo#!"
+INTERACTION_SCHEME_DISCOVERY_RISK_VERY_LOW:0 "#P Muy Bajo#!"
 
-SCHEME_PREDICTION_ESTIMATED_TIME_TT_OB:1 "#T #E Estimated#! Time for Completion #!"
-SCHEME_PREDICTION_SUCCESS_TT_OB:2 "#T #high #P Success #!Prediction #! #!"
-SCHEME_PREDICTION_SECRECY_TT_OB:2 "#T #high Risk of #N Discovery#! #! #!"
-SCHEME_PREDICTION_EXPECTED_TIME_TEXT_OB:0 "There will be a chance of progress every month based on [scheme_power|E] versus [scheme_resistance|E]."
-SCHEME_PERSONAL_PREDICTION_EXPECTED_TIME_TEXT_OB:0 "As this is a [personal_scheme|E], expected time to complete depends on your distance to the [scheme_target|E] and, if applicable, their rank or their spouse's rank \n#EMP (i.e.: it's different trying to seduce an unlanded courtier or the wife of a King)#!"
-SCHEME_PREDICTION_ON_DISCOVERY_OB:2 "When the [scheme|E] is executed, and remains #I undiscovered#!:"
-ANSWER_WILL_HAPPEN: "#P Will accept #!"
-ANSWER_WILL_NOT_HAPPEN: "#N Will not happen#! #!"
-ANSWER_VERY_UNLIKELY: "Your request is #N very unlikely #!to be granted"
-ANSWER_UNLIKELY: "Your request is #N unlikely #!to be granted"
-ANSWER_PERHAPS: "Your request might be granted"
-ANSWER_VERY_LIKELY: "Your request is #P very likely #!to be granted"
-ANSWER_LIKELY: "Your request is #P likely #!to be granted"
-ANSWER_GRANTED: "#P Your request will be granted! #!"
-ANSWER_WILL_REFUSE: "#N You would be ignored #!"
+SCHEME_PREDICTION_ESTIMATED_TIME_TT_OB:1 "#T #E Tiempo Estimado#! para Completar #!"
+SCHEME_PREDICTION_SUCCESS_TT_OB:2 "#T #high #P Éxito#! Predicción #! #!"
+SCHEME_PREDICTION_SECRECY_TT_OB:2 "#T #high Riesgo de #N Descubrimiento#! #! #!"
+SCHEME_PREDICTION_EXPECTED_TIME_TEXT_OB:0 "Habrá una oportunidad de progreso cada mes basada en [scheme_power|E] versus [scheme_resistance|E]."
+SCHEME_PERSONAL_PREDICTION_EXPECTED_TIME_TEXT_OB:0 "Como este es un [personal_scheme|E], el tiempo esperado para completar depende de tu distancia al [scheme_target|E] y, si aplica, su rango o el rango de su cónyuge \n#EMP (es decir, es diferente intentar seducir a un cortesano sin tierras o a la esposa de un rey)#!"
+SCHEME_PREDICTION_ON_DISCOVERY_OB:2 "Cuando se ejecute el [scheme|E] y permanezca #I sin descubrir#!:"
+ANSWER_WILL_HAPPEN: "#P Aceptará #!"
+ANSWER_WILL_NOT_HAPPEN: "#N No sucederá #! #!"
+ANSWER_VERY_UNLIKELY: "Es #N muy improbable #! que tu solicitud sea aceptada"
+ANSWER_UNLIKELY: "Es #N improbable #! que tu solicitud sea aceptada"
+ANSWER_PERHAPS: "Tu solicitud podría ser aceptada"
+ANSWER_VERY_LIKELY: "Es #P muy probable #! que tu solicitud sea aceptada"
+ANSWER_LIKELY: "Es #P probable #! que tu solicitud sea aceptada"
+ANSWER_GRANTED: "#P ¡Tu solicitud será aceptada! #!"
+ANSWER_WILL_REFUSE: "#N Serás ignorado #!"
 
 #added by obfusCKate: End
  
 #changed by obfusCKate: Start
 SCHEME_PREDICTION_SUCCESS_CHANCE:"[SelectLocalization(LessThanOrEqualTo_int32( InteractionSchemeInfo.GetSuccessChance, '(int32)15'),'INTERACTION_SCHEME_SUCCESS_VERY_UNLIKELY','')][SelectLocalization(And(LessThanOrEqualTo_int32( InteractionSchemeInfo.GetSuccessChance, '(int32)33'),GreaterThanOrEqualTo_int32( InteractionSchemeInfo.GetSuccessChance, '(int32)16')),'INTERACTION_SCHEME_SUCCESS_UNLIKELY','')][SelectLocalization(And(LessThanOrEqualTo_int32( InteractionSchemeInfo.GetSuccessChance, '(int32)67'),GreaterThanOrEqualTo_int32( InteractionSchemeInfo.GetSuccessChance, '(int32)34')),'INTERACTION_SCHEME_SUCCESS_MAYBE','')][SelectLocalization(And(LessThanOrEqualTo_int32( InteractionSchemeInfo.GetSuccessChance, '(int32)84'),GreaterThanOrEqualTo_int32( InteractionSchemeInfo.GetSuccessChance, '(int32)68')),'INTERACTION_SCHEME_SUCCESS_LIKELY','')][SelectLocalization(GreaterThanOrEqualTo_int32( InteractionSchemeInfo.GetSuccessChance, '(int32)85'),'INTERACTION_SCHEME_SUCCESS_VERY_LIKELY','')]"
 
-SCHEME_PREDICTION_NO_SUCCESS:0 "#X @warning_icon! There is little to no chance of success#!"
+SCHEME_PREDICTION_NO_SUCCESS:0 "#X @warning_icon! Hay poco o ninguna posibilidad de éxito#!"
 
-ANSWER_SUM_MAYBE:1 "#T Acceptance Chance#!"
-ANSWER_SUM_CHANCE:1 "#T Success Chance#!"
+ANSWER_SUM_MAYBE:1 "#T Probabilidad de Aceptación#!"
+ANSWER_SUM_CHANCE:1 "#T Probabilidad de Éxito#!"
 ANSWER_SUM_MAYBE_DESC:0 ""
 ANSWER_SUM_MAYBE_NO_DESC:0 ""
 ANSWER_SUM_MAYBE_YES_DESC:0 ""
 ANSWER_SUM:0 ""
 ANSWER_SUM_NEGATIVE:0 ""
 
-BASE_RELUCTANCE:0 "Base Reluctance [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+BASE_RELUCTANCE:0 "Base de Reticencia [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
 
-BANISH_TYRANNY_WARNING:0 "@warning_icon!#X This is an act of [tyranny|E], causing your subjects to decrease their [opinion|E] of you#!"
-REVOKE_TITLE_TYRANNY_WARNING:0 "@warning_icon!#X This is an act of [tyranny|E], causing your subjects to decrease their [opinion|E] of you#!"
-REVOKE_VASSAL_TYRANNY_WARNING:0 "@warning_icon!#X This is an act of [tyranny|E], causing your subjects to decrease their [opinion|E] of you#!"
+BANISH_TYRANNY_WARNING:0 "@warning_icon!#X Esto es un acto de [tyranny|E], haciendo que tus súbditos disminuyan su [opinion|E] sobre ti#!"
+REVOKE_TITLE_TYRANNY_WARNING:0 "@warning_icon!#X Esto es un acto de [tyranny|E], haciendo que tus súbditos disminuyan su [opinion|E] sobre ti#!"
+REVOKE_VASSAL_TYRANNY_WARNING:0 "@warning_icon!#X Esto es un acto de [tyranny|E], haciendo que tus súbditos disminuyan su [opinion|E] sobre ti#!"
 
-GAIN_HOOK_NEGATIVE_REASON:0 "Reluctant to give [hook|E] [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+GAIN_HOOK_NEGATIVE_REASON:0 "Renuente a dar el [hook|E] [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
  
- BLACKMAIL_INTERACTION_BASE_ACCEPTANCE:0 "[recipient.GetSheHe|U] wants to protect the Secret [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
- BLACKMAIL_INTERACTION_OPINION_ACCEPTANCE:0 "[recipient.GetSheHe|U] dislikes you [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
- BLACKMAIL_INTERACTION_DISTRUST_ACCEPTANCE:0 "[recipient.GetSheHe|U] distrusts you [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
- BLACKMAIL_MAJOR_SECRET_ACCEPTANCE:0 "It is a Major Secret [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ BLACKMAIL_INTERACTION_BASE_ACCEPTANCE:0 "[recipient.GetSheHe|U] quiere proteger el Secreto [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ BLACKMAIL_INTERACTION_OPINION_ACCEPTANCE:0 "[recipient.GetSheHe|U] no le agradas [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ BLACKMAIL_INTERACTION_DISTRUST_ACCEPTANCE:0 "[recipient.GetSheHe|U] desconfía de ti [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ BLACKMAIL_MAJOR_SECRET_ACCEPTANCE:0 "Es un Secreto Mayor [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
  
- AI_SIMPLE_OPINION_REASON:0 "Opinion "
+ AI_SIMPLE_OPINION_REASON:0 "Opinión "
  
  
- TAKE_THE_VOWS_SKEPTIC:0 "[personality|E] — #italic To serve [recipient.GetFaith.HighGodName] is not [recipient.GetHerHis] calling#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
- TAKE_THE_VOWS_ZEALOUS:0 "[personality|E] — #italic Devoting [recipient.GetHerselfHimself] to [recipient.GetFaith.HighGodName] tempts [recipient.GetHerHim]#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
- TAKE_THE_VOWS_GREED:0 "[personality|E] — #italic Destined for greater things#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
- TAKE_THE_VOWS_FIGHT_FOR_FAITH:0 "[personality|E] — #italic [recipient.GetSheHe|U] wishes to fight for [recipient.GetFaith.GetName]#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
- TAKE_THE_VOWS_AFRAID_TO_DIE:0 "[personality|E] — #italic [recipient.GetSheHe|U] is scared to fight#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
- TAKE_THE_VOWS_INSPIRING_COURT_CHAPLAIN:0 "[personality|E] — #italic [recipient.GetSheHe|U] is inspired by your [Concept( 'realm_priest', actor.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName )|E]#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
- TAKE_THE_VOWS_INSPIRING_CLERGY:0 "[personality|E] — #italic [recipient.GetSheHe|U] has been inspired by the [clergy|E]:#!"
- TAKE_THE_VOWS_PHYSICIAN_WANTS_TO_HELP:0 "[personality|E] — #italic Wants to help the sick#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ TAKE_THE_VOWS_SKEPTIC:0 "[personality|E] — #italic Servir a [recipient.GetFaith.HighGodName] no es su llamado#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ TAKE_THE_VOWS_ZEALOUS:0 "[personality|E] — #italic ¡Dedicarse a [recipient.GetFaith.HighGodName] le tienta#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ TAKE_THE_VOWS_GREED:0 "[personality|E] — #italic Destinado a cosas mayores#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ TAKE_THE_VOWS_FIGHT_FOR_FAITH:0 "[personality|E] — #italic ¡[recipient.GetSheHe|U] desea luchar por [recipient.GetFaith.GetName]#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ TAKE_THE_VOWS_AFRAID_TO_DIE:0 "[personality|E] — #italic ¡[recipient.GetSheHe|U] tiene miedo de luchar#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ TAKE_THE_VOWS_INSPIRING_COURT_CHAPLAIN:0 "[personality|E] — #italic [recipient.GetSheHe|U] se siente inspirado por tu [Concept( 'realm_priest', actor.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName )|E]#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ TAKE_THE_VOWS_INSPIRING_CLERGY:0 "[personality|E] — #italic [recipient.GetSheHe|U] ha sido inspirado por el [clergy|E]:#!"
+ TAKE_THE_VOWS_PHYSICIAN_WANTS_TO_HELP:0 "[personality|E] — #italic Quiere ayudar a los enfermos#! [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
 
-ASK_FOR_CONVERSION_RECIPIENT_LEARNING:0 "Difference between [recipient.GetShortUINamePossessive] and your [learning_skill|E]"
+ASK_FOR_CONVERSION_RECIPIENT_LEARNING:0 "Diferencia entre el conocimiento de [recipient.GetShortUINamePossessive] y tu habilidad en [learning_skill|E]"
 
-ASK_FOR_CONVERSION_RECIPIENT_DIPLOMACY:0 "Difference between [recipient.GetShortUINamePossessive] and your [diplomacy_skill|E]"
+ASK_FOR_CONVERSION_RECIPIENT_DIPLOMACY:0 "Diferencia entre la diplomacia de [recipient.GetShortUINamePossessive] y tu habilidad en [diplomacy_skill|E]"
 
- ASK_FOR_CONVERSION_RECIPIENT_FERVOR:0 "Difference between [recipient.GetFaith.GetAdjective|U] and [actor.GetFaith.GetAdjective|U] [fervor|E] [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ ASK_FOR_CONVERSION_RECIPIENT_FERVOR:0 "Diferencia entre el fervor de [recipient.GetFaith.GetAdjective|U] y [actor.GetFaith.GetAdjective|U] [fervor|E] [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
  
  
- offer_vassalization_interaction_aibehavior_power_tt:1 "Difference between Military Strength"
- offer_vassalization_interaction_aibehavior_vassal_opinion_tt:0 "Your [powerful_vassals|E] [opinion|E] of you [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
- offer_vassalization_interaction_aibehavior_dreaded_tt:0 "You are [dreadful|E] [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ offer_vassalization_interaction_aibehavior_power_tt:1 "Diferencia entre la Fuerza Militar"
+ offer_vassalization_interaction_aibehavior_vassal_opinion_tt:0 "La [opinion|E] de tus [powerful_vassals|E] sobre ti [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
+ offer_vassalization_interaction_aibehavior_dreaded_tt:0 "Tienes una reputación [dreadful|E] [SelectLocalization(GreaterThanOrEqualTo_int32( '(int32)$VALUE|0$' , '(int32)1' ),'positive_modifier','negative_modifier')]"
  
 
 #Changed by obfusCKate: End       

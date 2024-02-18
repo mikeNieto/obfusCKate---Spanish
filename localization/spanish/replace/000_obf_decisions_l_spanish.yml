@@ -1,9 +1,9 @@
 ﻿l_spanish:
 #added by obfusCKate: Start
-find_spouse_decision:0 "Find a Spouse"
- find_spouse_decision_desc:0 "Embracing the weight of my lineage's future, I must embark on the quest to find a spouse who will strengthen my reign and ensure the prosperity of my dynasty. A journey fraught with complexity, as I should seek councel on those able to navigate the realm's intricate webs of courtly life. "
- find_spouse_decision_tooltip: "You will be presented with the opportunity to nominate one of you councillors or your court physician as a herald (#X as long as they are not one of your heirs or lovers#!) who will try to compile a suitable list of spouse candidates. Alternatively, you may seek guidance among one of your friends."
- find_spouse_decision_selection_tooltip: "You will be presented with the opportunity to nominate one of you councillors or your court physician as a herald (#X as long as they are not one of your heirs or lovers#!) who will try to compile a suitable list of spouse candidates. Alternatively, you may seek guidance among one of your friends.\n\nThe effectiveness and suitability of their selection will depend on their skill and the opinion they have of you so, choose wisely...\n...and, as everything you do, searching in vain might bring consequences..."
- find_spouse_decision_confirm: "Find a spouse"
+find_spouse_decision:0 "Buscar un Cónyuge"
+find_spouse_decision_desc:0 "Abrazando el peso del futuro de mi linaje, debo embarcarme en la búsqueda de un cónyuge que fortalezca mi reinado y asegure la prosperidad de mi dinastía. Un viaje lleno de complejidades, ya que debo buscar consejo en aquellos capaces de navegar por las intrincadas redes de la vida cortesana del reino."
+find_spouse_decision_tooltip: "Se te presentará la oportunidad de nombrar a uno de tus consejeros o a tu médico de corte como un heraldo (#X siempre y cuando no sean uno de tus herederos o amantes#!) que intentará compilar una lista adecuada de candidatos a cónyuge. Alternativamente, puedes buscar orientación entre alguno de tus amigos."
+find_spouse_decision_selection_tooltip: "Se te presentará la oportunidad de nombrar a uno de tus consejeros o a tu médico de corte como un heraldo (#X siempre y cuando no sean uno de tus herederos o amantes#!) que intentará compilar una lista adecuada de candidatos a cónyuge. Alternativamente, puedes buscar orientación entre alguno de tus amigos.\n\nLa efectividad y conveniencia de su selección dependerá de su habilidad y la opinión que tengan de ti, así que elige sabiamente...\n...y, como todo lo que haces, buscar en vano podría traer consecuencias..."
+find_spouse_decision_confirm: "Buscar un cónyuge"
 
 #Changed by obfusCKate: End       

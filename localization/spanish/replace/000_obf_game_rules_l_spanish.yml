@@ -51,7 +51,7 @@ rule_character_search_options: "Menús Desplegables y Botones de Ordenar en List
 setting_default_options: "Restringido"
 setting_default_options_desc: "Solo las #E 'Personas que conoces'#! tendrán botones de ordenar. Otras listas de personajes solo permitirán ordenar por Edad y Rango."
 setting_enable_dropdowns: "Habilitar"
-setting_enable_dropdowns_desc: "Menús desplegables y botones de ordenar de CKIII estándar.\nPodrás ordenar personajes #N incluso si no los conoces#!.\nDado el alcance de este mod, esto sería como un 'cheat' suave." 
+setting_enable_dropdowns_desc: "Menús desplegables y botones de ordenar de CKIII estándar.\nPodrás ordenar personajes #N incluso si no los conoces#!.\nDado el alcance de este mod, esto sería como una pequeña 'trampa'." 
 rule_known_character_list_shortcut: "Acceso Directo para la Lista de Personajes Conocidos"
 setting_only_bottom_bar: "Solo Cerca de la Barra Inferior"
 setting_only_bottom_bar_desc: "Desactiva el icono de acceso directo en la ventana de tu personaje y muestra solo cerca de la barra inferior. #weak Esta es simplemente una opción cosmética#!."
